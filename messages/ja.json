@@ -1,0 +1,228 @@
+{
+  "Index": {
+    "title": "ヴィーレーシュ | ソフトウェア開発者 & 自動化アーキテクト",
+    "description": "バックエンド開発とクロスプラットフォーム自動化に特化した、実務経験3年のソフトウェア開発者。Python、Java、Node.js、Playwright、Airtestを中心としたシステム構築を行っています。",
+    "hero": {
+      "greeting": "こんにちは、私は Veeresh です!",
+      "subtitle": "フルスタック開発者",
+      "punchline": "私は、単に動作するだけでなく、拡張可能な高性能ソフトウェアを構築します。"
+    }
+  },
+  "Skills": {
+    "title": "技術エコシステム",
+    "categories": {
+      "languages": "言語 (Languages)",
+      "backend": "バックエンド (Backend)",
+      "frontend": "フロントエンド (Frontend)",
+      "databases": "データベース (Databases)",
+      "devops": "DevOps",
+      "security": "セキュリティ (Security)",
+      "ai_tools": "AI・ツール (AI & Tools)"
+    },
+    "items": {
+      "languages": ["Python", "Java", "PHP", "JavaScript", "TypeScript"],
+      "backend": ["FastAPI", "Spring Boot", "Laravel", "Flask", "Django", "Express.js"],
+      "frontend": ["React.js", "Next.js", "Streamlit", "Tailwind CSS"],
+      "databases": ["PostgreSQL", "MySQL", "Redis", "MongoDB"],
+      "devops": ["Docker", "GitHub Actions", "Postman", "Linux/Bash"],
+      "security": ["OAuth 2.0", "JWT"],
+      "ai_tools": ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT/o1", "Cursor"]
+    }
+  },
+  "Experience": {
+    "title": "職務経歴",
+    "jobs": [
+      {
+        "role": "バイリンガル・ソフトウェアエンジニア",
+        "company": "日印ソフトウェアソリューションズ プライベートリミテッド",
+        "period": "2023年9月 – 2025年1月、2025年9月 – 現在",
+        "highlights": [
+           "DockerとExpress.jsを使用し、スケーラビリティとセキュリティに重点を置いたコンテナ化されたマイクロサービスを設計。",
+           "OAuth 2.0認証とロールベースのアクセス制御を備えたFastAPIを使用して、高性能なAPIを構築。",
+           "低遅延ダッシュボード向けに、Spring BootとReact.jsを使用したリアルタイムなデータ視覚化システムを開発。",
+           "Pythonを使用してインフラ監視と安全なSMTPベースのアラートを自動化。"
+        ]
+      },
+      {
+        "role": "バイリンガル・ソフトウェアエンジニア (日本駐在)",
+        "company": "株式会社NDR",
+        "period": "2025年2月 – 2025年8月",
+        "highlights": [
+           "MouserやDigi-Keyなどの調達APIを統合し、リアルタイムの価格設定と部品検証を実現。",
+           "Python Pandasを使用して、多通貨や複雑な価格設定ロジックを処理するカスタム価格計算エンジンを構築。",
+           "日本の部門横断的なチームと連携し、エンジニアリングソリューションをビジネス要件に合わせて調整。"
+        ]
+      }
+    ]
+  },
+  "EngineRoom": {
+    "title": "エンジンルーム：私が選ばれる理由",
+    "subtitle": "実務経験3年のソフトウェア開発者です。私は単にテストコードを書くだけではありません。プレッシャーの中で真価を発揮する、本番稼働用の自動化エコシステム全体を構築します。",
+    "intro": "「そこそこ動けばいい」というソリューションが溢れるこの業界で、私は極限を想定してエンジニアリングを行います。Express.jsを用いたマイクロサービスのコンテナ化、FastAPIによるAPIアーキテクチャの設計、モバイル向け文字認識(OCR)ベースのAirtestフロー構築など、複雑さを削ぎ落とし、クリーンでパフォーマンスが高く、スケーラブルなアーキテクチャを残します。私は日本での現地業務など、国際的なチームでの経験があり、その規律を私が書くすべてのコードに注ぎ込んでいます。",
+    "dna": {
+      "title": "私のエンジニアリングDNA",
+      "speed": {
+        "title": "スピード",
+        "desc": "いじるためではなく、デプロイするために構築します。複雑な要件を、機能的で高性能なバックエンドやモバイルインターフェースへと記録的な速さで作り変えます。"
+      },
+      "security": {
+        "title": "セキュリティ",
+        "desc": "壊れるコードは負債です。私は防衛的なマインドセットで構築し、インフラが初日から堅牢で、信頼性が高く、安全であることを保証します。"
+      },
+      "optimization": {
+        "title": "最適化",
+        "desc": "効率性が私のデフォルトです。Pythonマイクロサービスの最適化であれ、Flutterの状態ツリーの改善であれ、私はコードのすべての行から最大限のパフォーマンスを引き出します。"
+      },
+      "reliability": {
+        "title": "戦略的信頼性",
+        "desc": "機能をリリースするだけではありません。あなたの製品ロードマップと一致する、保守可能で長期的な技術的価値を提供します。"
+      }
+    },
+    "delivery": {
+      "title": "結果を出す方法",
+      "isolation": {
+        "title": "分離と解決",
+        "desc": "私は立ち止まりません。問題を最小のコンポーネントに分解し、ボトルネックを特定して、修正を実行します。"
+      },
+      "debt": {
+        "title": "技術的負債ゼロ",
+        "desc": "次に読むエンジニアのためにコードを書きます。クリーンで、ドキュメント化され、モジュール化されたコードです。"
+      },
+      "scalable": {
+        "title": "スケーラブルな思考",
+        "desc": "今日のユーザーベースのためだけでなく、明日必要なスケールを見据えて構築します。"
+      }
+    },
+    "credentials": {
+      "title": "資格・認定"
+    },
+    "cta": {
+      "message": "脆いコードで妥協するのはやめましょう。長持ちするものを一緒に作りましょう。",
+      "button": "相談する"
+    }
+  },
+
+  "CaseStudies": {
+    "title": "主なアーキテクチャ・ケーススタディ",
+    "cases": [
+      {
+        "title": "エンタープライズ・マイクロサービスのコンテナ化",
+        "tech": ["Express.js", "Docker", "Node.js", "OAuth 2.0"],
+        "challenge": "従来のモノリス型アーキテクチャでは、スケーリング負荷に耐えられず、迅速なデプロイのボトルネックとなっていました。",
+        "solution": "DockerとExpress.jsを使用し、可用性の高いコンテナ化されたマイクロサービスエコシステムを設計・導入。OAuth 2.0で保護されたロールベースのセキュアなAPIを構築し、各サービスの独立したスケーリングを実現。デプロイ時間とサーバー負荷を大幅に削減しました。"
+      },
+      {
+        "title": "低遅延データ視覚化システム",
+        "tech": ["Spring Boot", "React.js", "PostgreSQL", "Java"],
+        "challenge": "遅延を感じさせない、高速データストリームのリアルタイムな可視化が求められていました。",
+        "solution": "Spring Bootを用いた高性能バックエンドを構築し、データを効率的に処理・ストリーミング。複雑なDOM更新に最適化されたReact.jsフロントエンドと組み合わせることで、UIをブロックすることなく大量のデータスループットを処理できるシームレスなリアルタイム・ダッシュボードを実現しました。"
+      },
+      {
+        "title": "クロスプラットフォーム自動化インフラストラクチャ",
+        "tech": ["Python", "Airtest", "Playwright", "Pandas"],
+        "challenge": "多様なモバイル、Web、ハードウェア・プラットフォームにまたがる手動検証は時間がかかり、エラーが発生しやすい状態でした。",
+        "solution": "モバイル/ハードウェア・インターフェースにはAirtest、WebにはPlaywrightを活用した、堅牢なOCR駆動の自動化フレームワークを開発。複雑なデータ検証にはPython Pandasを統合し、自動SMTPアラートシステムを構築することで、手動QAの時間を80%削減しました。"
+      },
+      {
+        "title": "AI駆動型の予測分析エンジン",
+        "tech": ["Python", "TensorFlow", "FastAPI", "React.js"],
+        "challenge": "従来のシステムではユーザーの行動やシステムの障害を予測できず、高い離脱率と非効率なリソース割り当てを招いていました。",
+        "solution": "PythonとAIフレームワークを使用して、過去のデータをリアルタイムで分析する機械学習パイプラインを開発・統合しました。予測モデルによりリソース効率が40%向上し、応答性の高いFastAPIバックエンドを通じて実用的なインサイトを提供しました。"
+      },
+      {
+        "title": "スケーラブルなNoSQLデータベース・アーキテクチャ",
+        "tech": ["MongoDB", "Redis", "Node.js", "Express.js"],
+        "challenge": "リレーショナルデータベースでは、大量の非構造化データやリアルタイムのユーザー生成コンテンツの処理に苦戦し、著しい遅延が発生していました。",
+        "solution": "主要なデータレイヤーを可用性の高いNoSQLアーキテクチャ（MongoDB/Redis）に移行し、スキーマの柔軟性と水平方向のスケーリングに対応しました。この移行により、データベースクエリの遅延が60%以上削減され、アプリケーション全体の応答性が向上しました。"
+      },
+      {
+        "title": "高度なサイバーセキュリティ・インシデント対応システム",
+        "tech": ["Python", "OAuth 2.0", "JWT", "Security Automation"],
+        "challenge": "脆弱なエンドポイントと手動のセキュリティ監査により、プラットフォームが自動化された脅威や不正なデータアクセスにさらされていました。",
+        "solution": "OAuth 2.0、ゼロトラストの原則、および自動化された脅威検出パイプラインを実装する堅牢なセキュリティインフラストラクチャを構築しました。システムはDDoS攻撃を積極的に軽減し、機密データのペイロードを保護して、不正アクセス要求の成功を99.9%削減しました。"
+      },
+      {
+        "title": "高性能なメモリリーク防止と最適化",
+        "tech": ["Node.js", "V8 Profiler", "React.js", "Memory Management"],
+        "challenge": "長時間稼働するアプリケーションプロセスが、時間の経過とともに深刻なメモリ肥大化に陥り、予期せぬクラッシュやユーザーエクスペリエンスの低下を引き起こしていました。",
+        "solution": "V8メモリツールを使用して詳細なプロファイリングを実施し、クロージャーのリークやデタッチされたDOM要素を特定して排除しました。積極的なガベージコレクション戦略を実装し、状態管理を最適化することで、安定したメモリ使用量を実現し、メモリ不足によるクラッシュを完全に排除しました。"
+      }
+    ]
+  },
+
+  "Projects": {
+    "title": "主なプロジェクト",
+    "items": {
+      "1": {
+        "title": "部品価格管理ツール",
+        "company": "株式会社NDR",
+        "duration": "2025年2月 - 2025年8月",
+        "desc": "MouserとDigi-KeyのAPIから電子部品の価格を取得・比較・分析するプロセスを自動化するWebベースのシステム。リアルタイムのSSEストリーミング、データ正規化、価格ブレイクに基づく最適な購入数量の動的計算を備えています。",
+        "tech": [
+          "FastAPI",
+          "Python",
+          "SQLAlchemy",
+          "SSE",
+          "React JS",
+          "DataTables"
+        ]
+      },
+      "2": {
+        "title": "ホテル・チャンセリー – 予約管理システム",
+        "company": "日印ソフトウェアソリューションズ",
+        "duration": "2025年9月 - 2026年1月",
+        "desc": "チャンセリー・グループ向けのホテル予約管理システムを開発。Docker、Express.js、PostgreSQLを使用したコンテナ化サービスを構築し、非同期処理用のバックグラウンドワーカーを実装しました。また、Redisを統合し、キャッシュ構成、ボットブロック、およびACLベースのアクセス制御により、システムのパフォーマンスとセキュリティを強化しました。",
+        "tech": [
+          "JavaScript",
+          "Express.js",
+          "Docker",
+          "PostgreSQL",
+          "Redis",
+          "SQL"
+        ]
+      }
+    }
+  },
+
+  "Credentials": {
+    "title": "学歴・資格",
+    "education": {
+      "degree": "工学士 (B.E)",
+      "institution": "ヴィシュヴェシュワラヤ工科大学 (VTU)",
+      "period": "2021年 卒業"
+    },
+    "certifications": [
+      {
+        "name": "Oracle Certified Professional: Java SE 8 Programmer",
+        "issuer": "Oracle",
+        "date": "2024年8月",
+        "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=12BCCC5DDDA415AE567BCE4A8367A8AA5DC98236DB48DFB376BF3998C10EEEC2"
+      }
+    ]
+  },
+
+  "Contact": {
+    "title": "一緒に何か作りませんか？",
+    "subtitle": "現在、新しい機会を募集しています。質問がある場合でも、ただ挨拶したい場合でも、お気軽にご連絡ください！",
+    "email_button": "メールで連絡する",
+    "email": "veeresh.vk.work@gmail.com",
+    "form": {
+      "name_label": "お名前",
+      "name_placeholder": "お名前を入力してください",
+      "email_label": "メールアドレス",
+      "email_placeholder": "返信先のメールアドレス",
+      "message_label": "メッセージ",
+      "message_placeholder": "ご用件をご入力ください",
+      "send_button": "送信する",
+      "sending": "送信中...",
+      "success": "メッセージを受け取りました。折り返しご連絡いたします。",
+      "error": "送信に失敗しました。以下の直接メールリンクをご利用ください。"
+    }
+  },
+
+  "Metadata": {
+    "title": "ヴィーレーシュ | ソフトウェア開発者 & 自動化アーキテクト | バンガロール",
+    "description": "バックエンド開発とクロスプラットフォーム自動化に特化した、実務経験3年のソフトウェア開発者。Python、Java、Node.js、Playwright、Airtestを中心としたスケーラブルなシステムと堅牢な自動化フレームワークを構築します。",
+    "keywords": "ソフトウェア開発者 バンガロール, 自動化アーキテクト, SDET, Playwright, Python バックエンド開発, Java Spring Boot, Node.js マイクロサービス, モバイルUI自動化, Airtest エキスパート"
+  }
+}

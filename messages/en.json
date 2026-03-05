@@ -1,0 +1,220 @@
+{
+  "Index": {
+    "title": "Veeresh | Software Developer | Python Specialist",
+    "description": "Software Developer with 3 years of experience in backend development and cross-platform automation. Specializing in Python, Java, Node.js, Playwright, and Airtest.",
+    "hero": {
+      "greeting": "Hi I am Veeresh !!",
+      "subtitle": "A Full Stack Developer",
+      "punchline": "I build high-performance software that doesn't just work—it scales."
+    }
+  },
+  "Skills": {
+    "title": "Technical Ecosystem",
+    "categories": {
+      "languages": "Languages",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Databases",
+      "devops": "DevOps",
+      "security": "Security",
+      "ai_tools": "AI & Tools"
+    },
+    "items": {
+      "languages": ["Python", "Java", "PHP", "JavaScript", "TypeScript"],
+      "backend": ["FastAPI", "Spring Boot", "Laravel", "Flask", "Django", "Express.js"],
+      "frontend": ["React.js", "Next.js", "Streamlit", "Tailwind CSS"],
+      "databases": ["PostgreSQL", "MySQL", "Redis", "MongoDB"],
+      "devops": ["Docker", "GitHub Actions", "Postman", "Linux/Bash"],
+      "security": ["OAuth 2.0", "JWT"],
+      "ai_tools": ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT/o1", "Cursor"]
+    }
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "role": "Bilingual Software Engineer",
+        "company": "Nichi-In Software Solutions Pvt. Ltd.",
+        "period": "Sept 2023 – Jan 2025, Sept 2025 – Present",
+        "highlights": [
+           "Designed containerized microservices using Docker and Express.js with emphasis on scalability and security.",
+           "Built high-performance APIs using FastAPI with OAuth 2.0 authentication & role-based access control.",
+           "Developed real-time visualization systems using Spring Boot + React.js for low-latency dashboards.",
+           "Automated infrastructure monitoring & secure SMTP-based alerting using Python."
+        ]
+      },
+      {
+        "role": "Bilingual Software Engineer (Onsite)",
+        "company": "NDR Co., Ltd. (Japan)",
+        "period": "Feb 2025 – Aug 2025",
+        "highlights": [
+           "Integrated procurement APIs including Mouser and Digi-Key for real-time pricing and part validation.",
+           "Built custom pricing engines using Python Pandas to handle multi-currency and complex pricing logic.",
+           "Collaborated with cross-functional Japanese teams to align engineering solutions with business requirements."
+        ]
+      }
+    ]
+  },
+  "EngineRoom": {
+    "title": "How I Deliver Results",
+    "subtitle": "I’m a Software Developer with 3 years of professional experience. I don't just write tests—I build production-ready automation ecosystems that thrive under pressure.",
+    "intro": "In an industry filled with \"just-good-enough\" solutions, I engineer for the extreme. Whether it's containerizing microservices in Express.js, architecting APIs with FastAPI, or using OCR-based Airtest flows for mobile, I strip away the complexity to leave behind clean, performant, and scalable architecture. I’ve worked in international teams onsite in Japan, and I bring that same discipline to every line of code I write.",
+    "dna": {
+      "title": "My Engineering DNA",
+      "speed": {
+        "title": "Speed",
+        "desc": "I build to deploy, not to tinker. I turn complex requirements into functional, high-performance backends and mobile interfaces in record time."
+      },
+      "security": {
+        "title": "Security",
+        "desc": "Code that breaks is a liability. I build with a defensive mindset, ensuring your infrastructure is hardened, reliable, and secure from day one."
+      },
+      "optimization": {
+        "title": "Optimization",
+        "desc": "Efficiency is my default. Whether it's optimizing a Python microservice or refining a Flutter state tree, I extract maximum performance out of every line of code."
+      },
+      "reliability": {
+        "title": "Strategic Reliability",
+        "desc": "I don't just ship features; I deliver maintainable, long-term technical value that aligns with your product roadmap."
+      }
+    },
+    "delivery": {
+      "title": "How I Deliver Results",
+      "isolation": {
+        "title": "Isolation & Resolution",
+        "desc": "I don't get stuck. I decompose problems into their smallest components, identify the bottleneck, and execute the fix."
+      },
+      "debt": {
+        "title": "No Technical Debt",
+        "desc": "I write code for the next engineer who will read it—clean, documented, and modular."
+      },
+      "scalable": {
+        "title": "Scalable Thinking",
+        "desc": "I build for the user base you have today and the scale you need tomorrow."
+      }
+    }
+  },
+
+  "CaseStudies": {
+    "title": "Featured Architecture & Case Studies",
+    "cases": [
+      {
+        "title": "Enterprise Microservices Containerization",
+        "tech": ["Express.js", "Docker", "Node.js", "OAuth 2.0"],
+        "challenge": "Legacy monolith architectures struggled under scaling loads and presented bottlenecks for rapid deployment.",
+        "solution": "Architected and deployed a highly scalable, containerized microservices ecosystem using Docker and Express.js. Designed secure, role-based APIs protected by OAuth 2.0, allowing independent scaling of services and significantly reducing deployment times and server overhead."
+      },
+      {
+        "title": "Low-Latency Data Visualization Ecosystem",
+        "tech": ["Spring Boot", "React.js", "PostgreSQL", "Java"],
+        "challenge": "Client needed real-time visibility into high-velocity data streams with zero perceptible lag.",
+        "solution": "Built a high-performance backend with Spring Boot to process and stream data efficiently, paired with a React.js frontend optimized for complex DOM updates. The result was a seamless, real-time dashboard capable of handling massive data throughput without UI blocking."
+      },
+      {
+        "title": "Cross-Platform Automation Infrastructure",
+        "tech": ["Python", "Airtest", "Playwright", "Pandas"],
+        "challenge": "Manual verification across diverse mobile, web, and hardware platforms was slow and error-prone.",
+        "solution": "Engineered a robust, OCR-driven automation framework utilizing Airtest for mobile/hardware interfaces and Playwright for web. Integrated Python Pandas for complex data validation and built automated SMTP alerting for immediate failure notification, reducing manual QA time by 80%."
+      },
+      {
+        "title": "AI-Powered Predictive Analytics Engine",
+        "tech": ["Python", "TensorFlow", "FastAPI", "React.js"],
+        "challenge": "Legacy systems could not anticipate user behavior or system failures, leading to high churn rates and inefficient resource allocation.",
+        "solution": "Developed and integrated a machine learning pipeline using Python and AI frameworks to analyze historical data in real-time. This predictive models improved resource efficiency by 40% and provided actionable insights through a responsive FastAPI backend."
+      },
+      {
+        "title": "Scalable NoSQL Database Architecture",
+        "tech": ["MongoDB", "Redis", "Node.js", "Express.js"],
+        "challenge": "Relational databases struggled with processing massive volumes of unstructured data and real-time user-generated content, causing significant lag.",
+        "solution": "Migrated the primary data layer to a highly available NoSQL architecture (MongoDB/Redis) to handle schematic flexibility and horizontal scaling. This transition reduced database query latency by over 60% and improved overall application responsiveness."
+      },
+      {
+        "title": "Advanced Cybersecurity Incident Response System",
+        "tech": ["Python", "OAuth 2.0", "JWT", "Security Automation"],
+        "challenge": "Vulnerable endpoints and manual security auditing left the platform exposed to automated threats and unauthorized data access.",
+        "solution": "Architected a robust security infrastructure implementing OAuth 2.0, Zero-Trust principles, and automated threat detection pipelines. The system actively mitigates DDoS attempts and secures sensitive data payloads, achieving a 99.9% reduction in successful unauthorized access requests."
+      },
+      {
+        "title": "High-Performance Memory Leak Prevention & Optimization",
+        "tech": ["Node.js", "V8 Profiler", "React.js", "Memory Management"],
+        "challenge": "Long-running application processes suffered from severe memory bloat over time, leading to unexpected crashes and degraded user experience.",
+        "solution": "Conducted deep profiling using V8 memory tools to identify and eliminate closure leaks and detached DOM elements. Implemented aggressive garbage collection strategies and optimized state management, resulting in a stable memory footprint and eliminating out-of-memory crashes entirely."
+      }
+    ]
+  },
+
+  "Projects": {
+    "title": "Featured Projects",
+    "items": {
+      "1": {
+        "title": "Parts Price Management Tool",
+        "company": "NDR Co., Ltd.",
+        "duration": "Feb 2025 - Aug 2025",
+        "desc": "A web-based system designed to automate retrieving, comparing, and analyzing electronic component pricing from Mouser and Digi-Key APIs. Features real-time SSE streaming, data normalization, and dynamic calculation for optimal purchase quantities based on price breaks.",
+        "tech": [
+          "FastAPI",
+          "Python",
+          "SQLAlchemy",
+          "SSE",
+          "React js",
+          "DataTables"
+        ]
+      },
+      "2": {
+        "title": "The Chancery Project",
+        "company": "Nichi-In Software Solutions Pvt. Ltd.",
+        "duration": "Sept 2025 – Jan 2026",
+        "desc": "Designed containerized microservices using Docker and Express.js with a focus on scalability and security. Built high-performance APIs using FastAPI with OAuth 2.0 authentication and role-based access control. Developed a real-time data visualization system using Spring Boot and React.js for low-latency dashboards. Automated infrastructure monitoring and secure SMTP-based alerts using Python.",
+        "tech": ["JavaScript",
+          "Express.js",
+          "Docker",
+          "PostgreSQL",
+          "Redis",
+          "BullMQ (Message Queue)",
+          "SQL"]
+      }
+    }
+  },
+
+  "Credentials": {
+    "title": "Education & Credentials",
+    "education": {
+      "degree": "Bachelor of Engineering (B.E)",
+      "institution": "Visvesvaraya Technological University (VTU)",
+      "period": "Graduated 2021"
+    },
+    "certifications": [
+      {
+        "name": "Oracle Certified Professional: Java SE 8 Programmer",
+        "issuer": "Oracle",
+        "date": "Aug 2024",
+        "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=12BCCC5DDDA415AE567BCE4A8367A8AA5DC98236DB48DFB376BF3998C10EEEC2"
+      }
+    ]
+  },
+
+  "Contact": {
+    "title": "Let's Build Something Together",
+    "subtitle": "Currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!",
+    "email_button": "Say Hello via Email",
+    "email": "veeresh.vk.work@gmail.com",
+    "form": {
+      "name_label": "Name",
+      "name_placeholder": "How should I address you?",
+      "email_label": "Email",
+      "email_placeholder": "Where can I reach you?",
+      "message_label": "Message",
+      "message_placeholder": "What do you want to build?",
+      "send_button": "Send Message",
+      "sending": "Transmitting...",
+      "success": "Message received. I'll be in touch soon.",
+      "error": "Transmission failed. Please use the direct email link below."
+    }
+  },
+
+  "Metadata": {
+    "title": "Veeresh | Software Developer & Automation Architect | Bengaluru",
+    "description": "Software Developer with 3 years of experience in backend development and cross-platform automation. Specializing in Python, Java, Node.js, Playwright, and Airtest. Building scalable systems and robust automation frameworks.",
+    "keywords": "Software Developer Bengaluru, Automation Architect, SDET, Playwright Automation, Python Backend Developer, Java Spring Boot, Node.js Microservices, Mobile UI Automation, Airtest Expert"
+  }
+}
