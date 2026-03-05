@@ -28,7 +28,7 @@ export function HeroSection() {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-600 dark:text-cyan-400 text-xs font-mono tracking-wider"
         >
           <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
-          available for work
+          {t("hero.availableForWork")}
         </motion.div>
 
         {/* Name */}
@@ -72,31 +72,16 @@ export function HeroSection() {
             href="#contact"
             className="relative inline-flex items-center gap-2 px-7 py-3 rounded-full font-semibold text-sm text-white bg-gradient-to-r from-cyan-500 to-cyan-600 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:scale-105 transition-all duration-200"
           >
-            Get in Touch
+            {t("hero.contactMe")}
           </a>
           <a
             href="#about"
             className="inline-flex items-center gap-2 px-7 py-3 rounded-full font-semibold text-sm text-zinc-700 dark:text-zinc-300 border border-zinc-300 dark:border-zinc-700 hover:border-cyan-500/60 dark:hover:border-cyan-500/60 transition-all duration-200"
           >
-            About Me
+            {t("hero.aboutMe")}
           </a>
         </motion.div>
-      </motion.div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <span className="text-xs font-mono text-zinc-400 dark:text-zinc-600 tracking-widest uppercase">scroll</span>
-        <motion.div
-          animate={{ y: [0, 6, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-          className="w-px h-8 bg-gradient-to-b from-cyan-500 to-transparent"
-        />
-      </motion.div>
+      </motion.div>      
     </section>
   );
 }

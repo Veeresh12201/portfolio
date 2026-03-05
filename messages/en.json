@@ -3,10 +3,20 @@
     "title": "Veeresh | Software Developer | Python Specialist",
     "description": "Software Developer with 3 years of experience in backend development and cross-platform automation. Specializing in Python, Java, Node.js, Playwright, and Airtest.",
     "hero": {
+      "availableForWork": "available for work",
       "greeting": "Hi I am Veeresh !!",
       "subtitle": "A Full Stack Developer",
-      "punchline": "I build high-performance software that doesn't just work—it scales."
+      "punchline": "I build high-performance software that doesn't just work—it scales.",
+      "aboutMe": "About Me",
+      "contactMe": "Contact Me"
     }
+  },
+  "Nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
   },
   "Skills": {
     "title": "Technical Ecosystem",

@@ -3,10 +3,20 @@
     "title": "ヴィーレーシュ | ソフトウェア開発者 & 自動化アーキテクト",
     "description": "バックエンド開発とクロスプラットフォーム自動化に特化した、実務経験3年のソフトウェア開発者。Python、Java、Node.js、Playwright、Airtestを中心としたシステム構築を行っています。",
     "hero": {
+      "availableForWork": "仕事募集中",
       "greeting": "こんにちは、私は Veeresh です!",
       "subtitle": "フルスタック開発者",
-      "punchline": "私は、単に動作するだけでなく、拡張可能な高性能ソフトウェアを構築します。"
+      "punchline": "私は、単に動作するだけでなく、拡張可能な高性能ソフトウェアを構築します。",
+      "aboutMe": "私について",
+      "contactMe": "お問い合わせ"
     }
+  },
+  "Nav": {
+    "about": "私について",
+    "projects": "プロジェクト",
+    "experience": "経歴",
+    "skills": "スキル",
+    "contact": "お問い合わせ"
   },
   "Skills": {
     "title": "技術エコシステム",

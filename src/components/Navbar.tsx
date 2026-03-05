@@ -2,19 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import { LanguageToggle } from "./LanguageToggle";
 import { ThemeToggle } from "./ThemeToggle";
 import { Link } from "@/i18n/routing";
 
-const NAV_LINKS = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#skills", label: "Skills" },
-  { href: "#contact", label: "Contact" },
-];
-
 export default function Navbar() {
+  const t = useTranslations("Nav");
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -22,6 +16,14 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const NAV_LINKS = [
+    { href: "#about",      label: t("about"),      num: "01" },
+    { href: "#projects",   label: t("projects"),   num: "02" },
+    { href: "#experience", label: t("experience"), num: "03" },
+    { href: "#skills",     label: t("skills"),     num: "04" },
+    { href: "#contact",    label: t("contact"),    num: "05" },
+  ];
 
   return (
     <header
@@ -52,9 +54,7 @@ export default function Navbar() {
                   href={link.href}
                   className="px-3 py-1.5 rounded-lg text-sm font-mono text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 hover:bg-zinc-100 dark:hover:bg-zinc-800/60 transition-all"
                 >
-                  <span className="text-cyan-500 mr-1 text-xs">
-                    0{i + 1}.
-                  </span>
+                  <span className="text-cyan-500 mr-1 text-xs">{link.num}.</span>
                   {link.label}
                 </a>
               </motion.li>
