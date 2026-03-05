@@ -2,11 +2,22 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import { FaJava, FaCloud, FaLanguage, FaAward } from "react-icons/fa";
+import { SiAnthropic } from "react-icons/si";
+import React from "react";
+
+const iconMap: Record<string, React.ReactNode> = {
+  FaJava: <FaJava className="w-7 h-7" />,
+  FaCloud: <FaCloud className="w-7 h-7" />,
+  FaLanguage: <FaLanguage className="w-7 h-7" />,
+  FaAward: <FaAward className="w-7 h-7" />,
+  SiAnthropic: <SiAnthropic className="w-7 h-7" />
+};
 
 export function CredentialsSection() {
   const t = useTranslations("Credentials");
   const education = t.raw("education") as { degree: string; institution: string; period: string };
-  const certifications = t.raw("certifications") as Array<{ name: string; issuer: string; date: string; url: string }>;
+  const certifications = t.raw("certifications") as Array<{ name: string; issuer: string; date: string; url: string; icon?: string }>;
 
   return (
     <section className="py-24 px-6 max-w-5xl mx-auto w-full">
@@ -57,25 +68,47 @@ export function CredentialsSection() {
               Certifications
             </h4>
             <div className="space-y-4">
-              {certifications.map((cert, i) => (
-                <a
-                  key={i}
-                  href={cert.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-start gap-4 p-6 rounded-2xl bg-white/60 dark:bg-white/3 border border-zinc-200 dark:border-zinc-800 hover:border-cyan-500/40 transition-all hover:shadow-lg dark:hover:shadow-cyan-500/5 relative overflow-hidden"
-                >
-                  <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="flex-grow">
-                    <div className="text-sm font-bold text-zinc-900 dark:text-zinc-100 mb-1 group-hover:text-cyan-600 dark:group-hover:text-cyan-400 transition-colors">{cert.name}</div>
-                    <div className="text-xs font-medium text-cyan-600 dark:text-cyan-400 mb-2">{cert.issuer}</div>
-                    <div className="text-xs font-mono text-zinc-500 dark:text-zinc-400">{cert.date}</div>
-                  </div>
-                  <svg className="w-4 h-4 text-zinc-300 dark:text-zinc-600 group-hover:text-cyan-500 flex-shrink-0 mt-0.5 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-              ))}
+              {certifications.map((cert, i) => {
+                const isLink = cert.url && cert.url !== "#";
+                const Wrapper = isLink ? "a" : "div";
+                const wrapperProps = isLink ? {
+                  href: cert.url,
+                  target: "_blank",
+                  rel: "noopener noreferrer"
+                } : {};
+
+                return (
+                  <Wrapper
+                    key={i}
+                    {...wrapperProps}
+                    className={`group flex items-start gap-5 p-6 rounded-2xl bg-white/60 dark:bg-white/3 border border-zinc-200 dark:border-zinc-800 transition-all relative overflow-hidden ${
+                      isLink ? "hover:border-cyan-500/40 hover:shadow-lg dark:hover:shadow-cyan-500/5 cursor-pointer" : ""
+                    }`}
+                  >
+                    {isLink && (
+                      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    )}
+                    
+                    <div className="flex-shrink-0 mt-0.5 bg-zinc-100 dark:bg-zinc-800/80 p-3 rounded-xl border border-zinc-200 dark:border-zinc-700/50 text-zinc-600 dark:text-zinc-400 group-hover:text-cyan-500 dark:group-hover:text-cyan-400 transition-colors">
+                      {cert.icon && iconMap[cert.icon] ? iconMap[cert.icon] : <FaAward className="w-7 h-7" />}
+                    </div>
+
+                    <div className="flex-grow pt-1">
+                      <div className={`text-sm font-bold text-zinc-900 dark:text-zinc-100 mb-1 transition-colors ${isLink ? "group-hover:text-cyan-600 dark:group-hover:text-cyan-400" : ""}`}>
+                        {cert.name}
+                      </div>
+                      <div className="text-xs font-medium text-cyan-600 dark:text-cyan-400 mb-2">{cert.issuer}</div>
+                      {cert.date && <div className="text-[11px] font-mono text-zinc-500 dark:text-zinc-500">{cert.date}</div>}
+                    </div>
+                    
+                    {isLink && (
+                      <svg className="w-4 h-4 text-zinc-300 dark:text-zinc-600 group-hover:text-cyan-500 flex-shrink-0 mt-2 transition-colors absolute right-6 top-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    )}
+                  </Wrapper>
+                );
+              })}
             </div>
           </motion.div>
         </div>

@@ -67,88 +67,69 @@
   },
   "EngineRoom": {
     "title": "How I Deliver Results",
-    "subtitle": "I’m a Software Developer with 3 years of professional experience. I don't just write tests—I build production-ready automation ecosystems that thrive under pressure.",
-    "intro": "In an industry filled with \"just-good-enough\" solutions, I engineer for the extreme. Whether it's containerizing microservices in Express.js, architecting APIs with FastAPI, or using OCR-based Airtest flows for mobile, I strip away the complexity to leave behind clean, performant, and scalable architecture. I’ve worked in international teams onsite in Japan, and I bring that same discipline to every line of code I write.",
+    "subtitle": "I am a Software Developer with 2.7 years of professional experience. I build robust backend systems and automation workflows that bridge technical complexity with business efficiency.",
+    "intro": "I specialize in architecting N-tier systems and driving process automation. From building booking management systems with Express.js, PostgreSQL, and Redis to automating price validation through Python and FastAPI, I focus on delivering clean, maintainable, and high-performance code. Having worked onsite in Japan, I combine international professional discipline with a rigorous, detail-oriented approach to every project.",
     "dna": {
       "title": "My Engineering DNA",
       "speed": {
-        "title": "Speed",
-        "desc": "I build to deploy, not to tinker. I turn complex requirements into functional, high-performance backends and mobile interfaces in record time."
+        "title": "Agile Implementation",
+        "desc": "I transform complex requirements into functional, high-performance backends. I prioritize rapid development cycles without compromising on architectural integrity."
       },
       "security": {
-        "title": "Security",
-        "desc": "Code that breaks is a liability. I build with a defensive mindset, ensuring your infrastructure is hardened, reliable, and secure from day one."
+        "title": "Robust Architecture",
+        "desc": "I approach every project with a focus on security and reliability, ensuring that the N-tier structures I build are hardened and resilient against bottlenecks."
       },
       "optimization": {
-        "title": "Optimization",
-        "desc": "Efficiency is my default. Whether it's optimizing a Python microservice or refining a Flutter state tree, I extract maximum performance out of every line of code."
+        "title": "Performance Tuning",
+        "desc": "Efficiency is built into my workflow. Whether it is optimizing database queries in PostgreSQL or refining Python-based automation pipelines, I extract maximum performance."
       },
       "reliability": {
-        "title": "Strategic Reliability",
-        "desc": "I don't just ship features; I deliver maintainable, long-term technical value that aligns with your product roadmap."
+        "title": "International Discipline",
+        "desc": "My experience working in Japan has ingrained in me a standard of excellence and consistency, ensuring that every feature I deliver aligns with long-term product goals."
       }
     },
     "delivery": {
       "title": "How I Deliver Results",
       "isolation": {
-        "title": "Isolation & Resolution",
-        "desc": "I don't get stuck. I decompose problems into their smallest components, identify the bottleneck, and execute the fix."
+        "title": "Problem Decomposition",
+        "desc": "I excel at breaking down large-scale requirements into modular components, isolating technical hurdles, and executing precise, effective solutions."
       },
       "debt": {
-        "title": "No Technical Debt",
-        "desc": "I write code for the next engineer who will read it—clean, documented, and modular."
+        "title": "Sustainable Code",
+        "desc": "I write clean, modular, and well-documented code, ensuring that the systems I build—like the booking management system for the Chancery Group—remain maintainable for future engineers."
       },
       "scalable": {
         "title": "Scalable Thinking",
-        "desc": "I build for the user base you have today and the scale you need tomorrow."
+        "desc": "I design with the future in mind. I build solutions that handle the immediate load while maintaining the structural flexibility required to scale tomorrow."
       }
     }
   },
-
   "CaseStudies": {
     "title": "Featured Architecture & Case Studies",
     "cases": [
       {
-        "title": "Enterprise Microservices Containerization",
-        "tech": ["Express.js", "Docker", "Node.js", "OAuth 2.0"],
-        "challenge": "Legacy monolith architectures struggled under scaling loads and presented bottlenecks for rapid deployment.",
-        "solution": "Architected and deployed a highly scalable, containerized microservices ecosystem using Docker and Express.js. Designed secure, role-based APIs protected by OAuth 2.0, allowing independent scaling of services and significantly reducing deployment times and server overhead."
+        "title": "Booking Management System (Chancery Group)",
+        "tech": ["Express.js", "PostgreSQL", "Redis", "ACL"],
+        "challenge": "The client required a robust, secure system to manage complex booking operations while maintaining high data integrity and granular user access control.",
+        "solution": "Architected an N-tier system leveraging Express.js for the backend, PostgreSQL for structured data, and Redis for high-speed caching. Implemented strict ACL-based security to manage multi-level user permissions, ensuring a secure and efficient booking lifecycle."
       },
       {
-        "title": "Low-Latency Data Visualization Ecosystem",
-        "tech": ["Spring Boot", "React.js", "PostgreSQL", "Java"],
-        "challenge": "Client needed real-time visibility into high-velocity data streams with zero perceptible lag.",
-        "solution": "Built a high-performance backend with Spring Boot to process and stream data efficiently, paired with a React.js frontend optimized for complex DOM updates. The result was a seamless, real-time dashboard capable of handling massive data throughput without UI blocking."
+        "title": "Procurement Automation Tool (Japan)",
+        "tech": ["Python", "FastAPI", "Pandas"],
+        "challenge": "The procurement process was manual, slow, and prone to human error when handling large-scale supplier pricing data.",
+        "solution": "Developed an automated price validation and sourcing tool using FastAPI for high-performance API endpoints and Pandas for complex data manipulation. The tool significantly reduced manual effort by automating supplier part identification and pricing verification."
       },
       {
-        "title": "Cross-Platform Automation Infrastructure",
-        "tech": ["Python", "Airtest", "Playwright", "Pandas"],
-        "challenge": "Manual verification across diverse mobile, web, and hardware platforms was slow and error-prone.",
-        "solution": "Engineered a robust, OCR-driven automation framework utilizing Airtest for mobile/hardware interfaces and Playwright for web. Integrated Python Pandas for complex data validation and built automated SMTP alerting for immediate failure notification, reducing manual QA time by 80%."
+        "title": "Real-Time Price Board & Monitoring",
+        "tech": ["Spring Boot", "React.js", "Python"],
+        "challenge": "Need for real-time visibility into fluctuating price data and critical system health alerts.",
+        "solution": "Built a high-performance Spring Boot backend paired with a dynamic React.js dashboard to visualize stock fluctuations. Integrated a custom Python-based downtime monitor with automated SMTP alerting to ensure immediate visibility into system outages."
       },
       {
-        "title": "AI-Powered Predictive Analytics Engine",
-        "tech": ["Python", "TensorFlow", "FastAPI", "React.js"],
-        "challenge": "Legacy systems could not anticipate user behavior or system failures, leading to high churn rates and inefficient resource allocation.",
-        "solution": "Developed and integrated a machine learning pipeline using Python and AI frameworks to analyze historical data in real-time. This predictive models improved resource efficiency by 40% and provided actionable insights through a responsive FastAPI backend."
-      },
-      {
-        "title": "Scalable NoSQL Database Architecture",
-        "tech": ["MongoDB", "Redis", "Node.js", "Express.js"],
-        "challenge": "Relational databases struggled with processing massive volumes of unstructured data and real-time user-generated content, causing significant lag.",
-        "solution": "Migrated the primary data layer to a highly available NoSQL architecture (MongoDB/Redis) to handle schematic flexibility and horizontal scaling. This transition reduced database query latency by over 60% and improved overall application responsiveness."
-      },
-      {
-        "title": "Advanced Cybersecurity Incident Response System",
-        "tech": ["Python", "OAuth 2.0", "JWT", "Security Automation"],
-        "challenge": "Vulnerable endpoints and manual security auditing left the platform exposed to automated threats and unauthorized data access.",
-        "solution": "Architected a robust security infrastructure implementing OAuth 2.0, Zero-Trust principles, and automated threat detection pipelines. The system actively mitigates DDoS attempts and secures sensitive data payloads, achieving a 99.9% reduction in successful unauthorized access requests."
-      },
-      {
-        "title": "High-Performance Memory Leak Prevention & Optimization",
-        "tech": ["Node.js", "V8 Profiler", "React.js", "Memory Management"],
-        "challenge": "Long-running application processes suffered from severe memory bloat over time, leading to unexpected crashes and degraded user experience.",
-        "solution": "Conducted deep profiling using V8 memory tools to identify and eliminate closure leaks and detached DOM elements. Implemented aggressive garbage collection strategies and optimized state management, resulting in a stable memory footprint and eliminating out-of-memory crashes entirely."
+        "title": "Data Scraping & Collection Infrastructure",
+        "tech": ["Python", "Web Scraping"],
+        "challenge": "Requirement to aggregate large datasets from industrial trade show sources (JIMTOF) for competitive analysis.",
+        "solution": "Engineered a scalable web scraping engine using Python to systematically crawl and organize industrial data. The framework automated the collection of critical trade show intelligence, transforming unstructured web data into structured, actionable insights."
       }
     ]
   },
@@ -195,10 +176,25 @@
     },
     "certifications": [
       {
-        "name": "Oracle Certified Professional: Java SE 8 Programmer",
+        "name": "Oracle Certified Associate (OCA) — Java SE 8",
         "issuer": "Oracle",
         "date": "Aug 2024",
-        "url": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=12BCCC5DDDA415AE567BCE4A8367A8AA5DC98236DB48DFB376BF3998C10EEEC2"
+        "url": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=1926FD25009096ACF48573CF98812D7C928DFB1F879F88F085081C7388F2824D",
+        "icon": "FaJava"
+      },
+      {
+        "name": "Claude Code in Action",
+        "issuer": "Skilljar",
+        "date": "2024",
+        "url": "https://verify.skilljar.com/c/t5hbnaxvg9ax",
+        "icon": "SiAnthropic"
+      },
+      {
+        "name": "JLPT N4 Certified (Active N3/N2 candidate)",
+        "issuer": "JLPT",
+        "date": "2024",
+        "url": "#",
+        "icon": "FaLanguage"
       }
     ]
   },
