@@ -1,12 +1,16 @@
 import createMiddleware from 'next-intl/middleware';
 import {routing} from './i18n/routing';
 
-export default createMiddleware(routing);
+export default createMiddleware({
+  locales: routing.locales,
+  defaultLocale: routing.defaultLocale,
+  localeDetection: false,
+});
 
 export const config = {
   matcher: [
     '/',
     '/(ja|en)/:path*',
-    '/((?!api|_next|_vercel|.*\\..*).*)'
+    '/((?!api|_next|_vercel|.*\\..*).*)' 
   ]
 };
