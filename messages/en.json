@@ -45,7 +45,7 @@
       {
         "role": "Bilingual Software Engineer",
         "company": "Nichi-In Software Solutions Pvt. Ltd.",
-        "period": "Sept 2023 – Jan 2025, Sept 2025 – Present",
+        "period": "Sept 2023 – Present",
         "highlights": [
            "Designed containerized microservices using Docker and Express.js with emphasis on scalability and security.",
            "Built high-performance APIs using FastAPI with OAuth 2.0 authentication & role-based access control.",
