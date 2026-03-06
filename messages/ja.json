@@ -21,21 +21,19 @@
   "Skills": {
     "title": "技術エコシステム",
     "categories": {
-      "languages": "言語 (Languages)",
-      "backend": "バックエンド (Backend)",
-      "frontend": "フロントエンド (Frontend)",
-      "databases": "データベース (Databases)",
-      "devops": "DevOps",
-      "security": "セキュリティ (Security)",
+      "core_backend": "コア・バックエンド",
+      "database_caching": "データベース & キャッシュ",
+      "architecture_devops": "アーキテクチャ & DevOps",
+      "frontend": "フロントエンド",
+      "languages": "言語 & 文化",
       "ai_tools": "AI・ツール (AI & Tools)"
     },
     "items": {
-      "languages": ["Python", "Java", "PHP", "JavaScript", "TypeScript"],
-      "backend": ["FastAPI", "Spring Boot", "Laravel", "Flask", "Django", "Express.js"],
-      "frontend": ["React.js", "Next.js", "Streamlit", "Tailwind CSS"],
-      "databases": ["PostgreSQL", "MySQL", "Redis", "MongoDB"],
-      "devops": ["Docker", "GitHub Actions", "Postman", "Linux/Bash"],
-      "security": ["OAuth 2.0", "JWT"],
+      "core_backend": ["Python", "Java", "Node.js (Express)", "FastAPI", "Spring Boot", "Laravel", "Flask", "Django"],
+      "database_caching": ["PostgreSQL", "Redis", "MySQL", "MongoDB"],
+      "architecture_devops": ["Docker", "GitHub Actions", "N-tier architecture", "Linux/Bash", "OAuth 2.0", "JWT", "Postman"],
+      "frontend": ["React.js", "Next.js", "JavaScript/TypeScript", "Tailwind CSS", "Streamlit"],
+      "languages": ["英語 (流暢)", "日本語 (JLPT N4取得・N2に向け準備中)"],
       "ai_tools": ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT/o1", "Cursor"]
     }
   },
@@ -72,8 +70,8 @@
     "dna": {
       "title": "私のエンジニアリングDNA",
       "speed": {
-        "title": "アジャイルな実装",
-        "desc": "複雑な要件を機能的で高性能なバックエンドへと変換します。アーキテクチャの整合性を損なうことなく、迅速な開発サイクルを優先します。"
+        "title": "エンジニアリング哲学",
+        "desc": "サービス間の疎結合とモジュール設計に重点を置き、拡張性の高いN階層システムを設計。場当たり的な修正ではなく、長期的な保守性の確保に取り組みます。"
       },
       "security": {
         "title": "堅牢なアーキテクチャ",
@@ -111,14 +109,14 @@
       {
         "title": "Chancery Group向け予約管理システム",
         "tech": ["Express.js", "PostgreSQL", "Redis", "ACL"],
-        "challenge": "複雑な予約業務を管理しつつ、高いデータ整合性と詳細なユーザーアクセス制御（ACL）を維持できる堅牢なシステムが必要でした。",
-        "solution": "Express.jsバックエンド、PostgreSQLデータベース、Redisキャッシュを組み合わせたN階層アーキテクチャを設計。ACLベースの厳格なセキュリティを実装し、多層的なユーザー権限管理と効率的な予約ライフサイクルを実現しました。"
+        "challenge": "ピーク時でもデータベースのボトルネックを発生させることなく、多層的な予約プロセスを確実に管理できる構造が求められました。",
+        "solution": "N階層のバックエンドを設計し、Redisキャッシュを統合することで、複雑なクエリの遅延を45%削減しました。また、ACLを用いた厳格なセキュリティを実装・適用し、予約ライフサイクル全体のユーザー権限を効率的に管理しています。"
       },
       {
         "title": "調達自動化ツール（日本でのプロジェクト）",
         "tech": ["Python", "FastAPI", "Pandas"],
-        "challenge": "サプライヤーの価格データ処理において、手動プロセスによる遅延と人為的ミスが発生していました。",
-        "solution": "FastAPIによる高性能APIと、Pandasを用いた複雑なデータ操作エンジンを開発。調達プロセスの自動化により、部品特定と価格検証にかかる工数を大幅に削減しました。"
+        "challenge": "MouserやDigi-Keyからの大量なサプライヤーデータを評価する際、手動の調達ワークフローにより遅延と不整合が発生していました。",
+        "solution": "FastAPIとPandasを使用した自動価格検証ツールを開発。リアルタイムで最適な購入数量を取得・評価することで、週に20時間以上の手動データ入力作業を削減しました。"
       },
       {
         "title": "リアルタイム・価格ダッシュボード監視システム",
@@ -174,7 +172,7 @@
     "title": "学歴・資格",
     "education": {
       "degree": "工学士 (B.E)",
-      "institution": "ヴィシュヴェシュワラヤ工科大学 (VTU)",
+      "institution": "SDM工科大学, ヴィシュヴェシュワラヤ工科大学 (VTU)",
       "period": "2021年 卒業"
     },
     "certifications": [
@@ -193,11 +191,17 @@
         "icon": "SiAnthropic"
       },
       {
-        "name": "JLPT N4 認定 (N3/N2 受験中)",
+        "name": "JLPT N4 認定 (N2に向けて準備中)",
         "issuer": "JLPT",
         "date": "2024年",
         "url": "#",
         "icon": "FaLanguage"
+      }
+    ],
+    "continuous_learning": [
+      {
+        "name": "認定エシカルハッカー (CEH) - 勉強中",
+        "focus": "セキュリティ＆脆弱性評価"
       }
     ]
   },

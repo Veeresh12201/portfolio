@@ -18,6 +18,7 @@ export function CredentialsSection() {
   const t = useTranslations("Credentials");
   const education = t.raw("education") as { degree: string; institution: string; period: string };
   const certifications = t.raw("certifications") as Array<{ name: string; issuer: string; date: string; url: string; icon?: string }>;
+  const continuous_learning = t.raw("continuous_learning") as Array<{ name: string; focus: string }>;
 
   return (
     <section className="py-24 px-6 max-w-5xl mx-auto w-full">
@@ -40,18 +41,41 @@ export function CredentialsSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.1, duration: 0.5 }}
           >
-            <h4 className="text-sm font-mono font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest mb-5 flex items-center gap-2">
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-              </svg>
-              Education
-            </h4>
-            <div className="group p-6 rounded-2xl bg-white/60 dark:bg-white/3 border border-zinc-200 dark:border-zinc-800 hover:border-cyan-500/40 transition-all hover:shadow-lg dark:hover:shadow-cyan-500/5 relative overflow-hidden">
-              <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 opacity-0 group-hover:opacity-100 transition-opacity" />
-              <div className="text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-1">{education.degree}</div>
-              <div className="text-sm font-medium text-cyan-600 dark:text-cyan-400 mb-3">{education.institution}</div>
-              <div className="text-xs font-mono text-zinc-500 dark:text-zinc-400">{education.period}</div>
+            <div className="mb-8">
+              <h4 className="text-sm font-mono font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                </svg>
+                Education
+              </h4>
+              <div className="group p-6 rounded-2xl bg-white/60 dark:bg-white/3 border border-zinc-200 dark:border-zinc-800 hover:border-cyan-500/40 transition-all hover:shadow-lg dark:hover:shadow-cyan-500/5 relative overflow-hidden">
+                <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <div className="text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-1">{education.degree}</div>
+                <div className="text-sm font-medium text-cyan-600 dark:text-cyan-400 mb-3">{education.institution}</div>
+                <div className="text-xs font-mono text-zinc-500 dark:text-zinc-400">{education.period}</div>
+              </div>
             </div>
+
+            {/* Continuous Learning */}
+            {continuous_learning && continuous_learning.length > 0 && (
+              <div>
+                <h4 className="text-sm font-mono font-bold text-cyan-600 dark:text-cyan-400 uppercase tracking-widest mb-5 flex items-center gap-2">
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                  Continuous Learning
+                </h4>
+                <div className="space-y-4">
+                  {continuous_learning.map((item, i) => (
+                    <div key={i} className="group p-6 rounded-2xl bg-white/60 dark:bg-white/3 border border-zinc-200 dark:border-zinc-800 hover:border-cyan-500/40 transition-all hover:shadow-lg dark:hover:shadow-cyan-500/5 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-cyan-500 to-violet-500 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <div className="text-[15px] font-bold text-zinc-900 dark:text-zinc-100 mb-1">{item.name}</div>
+                      <div className="text-xs font-medium text-cyan-600 dark:text-cyan-400">{item.focus}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </motion.div>
 
           {/* Certifications */}

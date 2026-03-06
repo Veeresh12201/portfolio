@@ -21,21 +21,19 @@
   "Skills": {
     "title": "Technical Ecosystem",
     "categories": {
-      "languages": "Languages",
-      "backend": "Backend",
+      "core_backend": "Core Backend",
+      "database_caching": "Database & Caching",
+      "architecture_devops": "Architecture & DevOps",
       "frontend": "Frontend",
-      "databases": "Databases",
-      "devops": "DevOps",
-      "security": "Security",
+      "languages": "Languages & Culture",
       "ai_tools": "AI & Tools"
     },
     "items": {
-      "languages": ["Python", "Java", "PHP", "JavaScript", "TypeScript"],
-      "backend": ["FastAPI", "Spring Boot", "Laravel", "Flask", "Django", "Express.js"],
-      "frontend": ["React.js", "Next.js", "Streamlit", "Tailwind CSS"],
-      "databases": ["PostgreSQL", "MySQL", "Redis", "MongoDB"],
-      "devops": ["Docker", "GitHub Actions", "Postman", "Linux/Bash"],
-      "security": ["OAuth 2.0", "JWT"],
+      "core_backend": ["Python", "Java", "Node.js (Express)", "FastAPI", "Spring Boot", "Laravel", "Flask", "Django"],
+      "database_caching": ["PostgreSQL", "Redis", "MySQL", "MongoDB"],
+      "architecture_devops": ["Docker", "GitHub Actions", "N-tier architecture", "Linux/Bash", "OAuth 2.0", "JWT", "Postman"],
+      "frontend": ["React.js", "Next.js", "JavaScript/TypeScript", "Tailwind CSS", "Streamlit"],
+      "languages": ["English (Fluent)", "Japanese (JLPT N4, prev. to N2)"],
       "ai_tools": ["Antigravity", "Claude 3.5 Sonnet", "ChatGPT/o1", "Cursor"]
     }
   },
@@ -72,8 +70,8 @@
     "dna": {
       "title": "My Engineering DNA",
       "speed": {
-        "title": "Agile Implementation",
-        "desc": "I transform complex requirements into functional, high-performance backends. I prioritize rapid development cycles without compromising on architectural integrity."
+        "title": "Engineering Philosophy",
+        "desc": "I architect scalable N-tier systems with a strong emphasis on decoupling services and modular design, ensuring long-term maintainability over quick, fragile fixes."
       },
       "security": {
         "title": "Robust Architecture",
@@ -110,14 +108,14 @@
       {
         "title": "Booking Management System (Chancery Group)",
         "tech": ["Express.js", "PostgreSQL", "Redis", "ACL"],
-        "challenge": "The client required a robust, secure system to manage complex booking operations while maintaining high data integrity and granular user access control.",
-        "solution": "Architected an N-tier system leveraging Express.js for the backend, PostgreSQL for structured data, and Redis for high-speed caching. Implemented strict ACL-based security to manage multi-level user permissions, ensuring a secure and efficient booking lifecycle."
+        "challenge": "The client needed a robust structure capable of managing multi-level bookings without database bottlenecks during peak periods.",
+        "solution": "Architected an N-tier backend and integrated Redis caching, which reduced complex query latency by 45%. Implemented strict ACL-based security to efficiently manage user permissions across the booking lifecycle."
       },
       {
         "title": "Procurement Automation Tool (Japan)",
         "tech": ["Python", "FastAPI", "Pandas"],
-        "challenge": "The procurement process was manual, slow, and prone to human error when handling large-scale supplier pricing data.",
-        "solution": "Developed an automated price validation and sourcing tool using FastAPI for high-performance API endpoints and Pandas for complex data manipulation. The tool significantly reduced manual effort by automating supplier part identification and pricing verification."
+        "challenge": "Manual procurement workflows caused delays and inconsistencies when evaluating large supplier datasets from Mouser and Digi-Key.",
+        "solution": "Developed an automated price validation tool using FastAPI and Pandas, saving over 20 hours of manual data entry per week by dynamically pulling and evaluating optimal purchase quantities."
       },
       {
         "title": "Real-Time Price Board & Monitoring",
@@ -171,7 +169,7 @@
     "title": "Education & Credentials",
     "education": {
       "degree": "Bachelor of Engineering (B.E)",
-      "institution": "Visvesvaraya Technological University (VTU)",
+      "institution": "SDM Institute of Technology, Visvesvaraya Technological University (VTU)",
       "period": "Graduated 2021"
     },
     "certifications": [
@@ -190,11 +188,17 @@
         "icon": "SiAnthropic"
       },
       {
-        "name": "JLPT N4 Certified (Active N3/N2 candidate)",
+        "name": "JLPT N4 Certified (Preparing for N2)",
         "issuer": "JLPT",
         "date": "2024",
         "url": "#",
         "icon": "FaLanguage"
+      }
+    ],
+    "continuous_learning": [
+      {
+        "name": "Certified Ethical Hacker (CEH) - In Progress",
+        "focus": "Security & Vulnerability Assessment"
       }
     ]
   },
